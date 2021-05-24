@@ -65,6 +65,7 @@ body {
   line-height: 1.336;
   text-transform: capitalize;
   padding: 67px 14px 8px;
+  display: block;
 }
 
 .navList a:hover {
@@ -271,6 +272,7 @@ body {
   background-color: var(--icon-color);
   border-radius: 13px;
   box-shadow: 0px 1px 0px #008fdd;
+  margin: 0 auto;
 }
 
 .titleServices {
