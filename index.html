@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Barber</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="header">
       <div class="container">
-        <div class="logo">
-          <img src="./images/Vector.svg" alt="ножницы" />
-          <img src="./images/arber.svg" alt="логотип barber" />
-        </div>
+        <p class="logo">arber</p>
         <nav>
-          <ul class="nav-list">
+          <ul class="navList">
             <li>
               <a href="#home">Home</a>
             </li>
@@ -31,7 +34,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="userMenu">
+        <ul class="btnList">
           <li>
             <button type="button">
               <img src="./images/Profile 1.svg" alt="Profile" />
@@ -42,12 +45,101 @@
               <img src="./images/Notification 1.png" alt="notification" />
             </button>
           </li>
+          <li>
+            <button type="button" class="appoint">
+              Appointment
+            </button>
+          </li>
         </ul>
       </div>
     </header>
+    <!-- End Header -->
 
+    <!-- Hero -->
     <main>
-      <section></section>
+      <section class="heroSection">
+        <div class="container">
+          <h1 class="heroTitle">
+            <span class="heroHairstyle accent">Hairstyle </span>Reflects The
+            Personality Inside You
+          </h1>
+          <p class="heroText">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page w hen looking at.
+          </p>
+          <button type="button" class="getStarted appoint">
+            Get Started
+          </button>
+        </div>
+      </section>
+      <section class="ourHistory">
+        <div class="container">
+          <h2 class="sectionTitle">
+            Our <span class="titleHistory">History</span>
+          </h2>
+          <ul class="historyText">
+            <li class="heroText">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at.
+            </li>
+            <li class="heroText">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at.
+            </li>
+          </ul>
+          <button type="button" class="appoint">Learn more</button>
+        </div>
+      </section>
+      <!-- End Hero -->
+
+      <!-- Services -->
+      <section class="services">
+        <div class="container">
+          <h2 class="servicesTitle">
+            Services We <br />
+            <span class="servicecProvide">Provide</span>
+          </h2>
+          <ul class="servicesIcon">
+            <li class="iconItem">
+              <div class="iconSvg">
+                <svg width="65" height="58">
+                  <use href="./images/icon.svg#vector"></use>
+                </svg>
+              </div>
+              <h3 class="titleServices">Hair Cut</h3>
+              <p class="servicesText">
+                long established fact that a reacted by the readable content of
+                hen looking at.
+              </p>
+            </li>
+            <li class="iconItem">
+              <div class="iconSvg">
+                <svg width="68" height="68">
+                  <use href="./images/icon.svg#electric"></use>
+                </svg>
+              </div>
+              <h3 class="titleServices">Beard Cut</h3>
+              <p class="servicesText">
+                long established fact that a reacted by the readable content of
+                hen looking at.
+              </p>
+            </li>
+            <li class="iconItem">
+              <div class="iconSvg">
+                <svg width="66" height="66">
+                  <use href="./images/icon.svg#cleanser"></use>
+                </svg>
+              </div>
+              <h3 class="titleServices">Facial Pack</h3>
+              <p class="servicesText">
+                long established fact that a reacted by the readable content of
+                hen looking at.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End Services -->
     </main>
 
     <footer></footer>
